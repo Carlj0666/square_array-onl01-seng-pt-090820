@@ -2,7 +2,7 @@ def square_array(numbers)
   numbers.each do |number|
   numbers_new = number * number
   puts "The number squared is #{numbers_new}"
-  number
+  #number || numbers_new?
   end
 end
 # non return sees to be the issue, thelast line should return, but even given
