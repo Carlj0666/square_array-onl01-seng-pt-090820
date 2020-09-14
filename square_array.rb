@@ -5,3 +5,5 @@ def square_array(numbers)
   numbers_new
   end
 end
+# non return sees to be the issue, thelast line should return, but even given
+#the return command, between 6-7, this causes the code to break
